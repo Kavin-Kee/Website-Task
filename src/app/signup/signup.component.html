@@ -1,0 +1,130 @@
+  <div class="signup-container">
+  <div class="form-container">
+    <div class="d-flex align-items-center logo">
+      <img src="assets/logo.png" alt="Maestro Logo" class="me-2">
+      <h2 class="mb-0">SignUp!</h2>
+    </div>
+    <form [formGroup]="signupForm" (ngSubmit)="onSubmit()" class="container-fluid">
+      <div class="form-group row mb-3">
+        <label for="name" class="col-sm-2 col-form-label">Name:</label>
+        <div class="col-sm-10">
+          <input id="name" formControlName="name" class="form-control" placeholder="Enter your name">
+          <div *ngIf="signupForm.get('name')?.invalid && signupForm.get('name')?.touched" class="text-danger">
+            Name is required
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row mb-3">
+        <label for="email" class="col-sm-2 col-form-label">Email:</label>
+        <div class="col-sm-10">
+          <input id="email" formControlName="email" class="form-control" placeholder="Enter your email">
+          <div *ngIf="signupForm.get('email')?.invalid && signupForm.get('email')?.touched" class="text-danger">
+            Enter a valid email
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row mb-3">
+        <label for="age" class="col-sm-2 col-form-label">Age:</label>
+        <div class="col-sm-10">
+          <input id="age" formControlName="age" type="number" class="form-control" placeholder="Enter your age">
+          <div *ngIf="signupForm.get('age')?.invalid && signupForm.get('age')?.touched" class="text-danger">
+            Age must be 18 or older
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row mb-3">
+        <label for="phoneNumber" class="col-sm-2 col-form-label">Phone Number:</label>
+        <div class="col-sm-10">
+          <input id="phoneNumber" formControlName="phoneNumber" class="form-control"
+            placeholder="Enter your phone number">
+          <div *ngIf="signupForm.get('phoneNumber')?.invalid && signupForm.get('phoneNumber')?.touched"
+            class="text-danger">
+            Enter a valid phone number
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row mb-3">
+        <label for="city" class="col-sm-2 col-form-label">City:</label>
+        <div class="col-sm-10">
+          <input id="city" formControlName="city" class="form-control" placeholder="Enter your city">
+        </div>
+      </div>
+      <div class="form-group row mb-3">
+        <label for="state" class="col-sm-2 col-form-label">State:</label>
+        <div class="col-sm-10">
+          <input id="state" formControlName="state" class="form-control" placeholder="Enter your state">
+        </div>
+      </div>
+      <div class="form-group row mb-3">
+        <label for="country" class="col-sm-2 col-form-label">Country:</label>
+        <div class="col-sm-10">
+          <input id="country" formControlName="country" class="form-control" placeholder="Enter your country">
+        </div>
+      </div>
+
+      <div formArrayName="addresses" class="mt-4">
+        <h5 class="text-primary">Address</h5>
+        <div *ngFor="let address of addresses.controls; let i = index" [formGroupName]="i"
+          class="border p-3 mb-3 bg-light rounded">
+          <div class="form-group row mb-3">
+            <label for="street-{{i}}" class="col-sm-2 col-form-label">Street:</label>
+            <div class="col-sm-10">
+              <input id="street-{{i}}" formControlName="street" class="form-control" placeholder="Enter street">
+            </div>
+          </div>
+          <div class="form-group row mb-3">
+            <label for="pincode-{{i}}" class="col-sm-2 col-form-label">Pincode:</label>
+            <div class="col-sm-10">
+              <input id="pincode-{{i}}" formControlName="pincode" class="form-control" placeholder="Enter pincode">
+            </div>
+          </div>
+          <button type="button" (click)="removeAddress(i)" class="btn btn-danger btn-sm" *ngIf="addresses.length > 1">
+            Remove Address
+          </button>
+        </div>
+      </div>
+
+      <button type="button" (click)="addAddress()" class="btn btn-primary btn-sm mb-3">Add Address</button>
+
+      <div class="form-group row mb-3">
+        <label for="createPassword" class="col-sm-2 col-form-label">Create Password:</label>
+        <div class="col-sm-10">
+          <input id="createPassword" formControlName="createPassword" type="password" class="form-control"
+            placeholder="Create a password">
+          <div *ngIf="signupForm.get('createPassword')?.invalid && signupForm.get('createPassword')?.touched"
+            class="text-danger">
+            Password is required
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row mb-3">
+        <label for="confirmPassword" class="col-sm-2 col-form-label">Confirm Password:</label>
+        <div class="col-sm-10">
+          <input id="confirmPassword" formControlName="confirmPassword" type="password" class="form-control"
+            placeholder="Confirm your password">
+          <div
+            *ngIf="signupForm.errors?.['mustMatch'] && signupForm.get('confirmPassword')?.touched"
+            class="text-danger">
+            Passwords must match
+          </div>
+          <div
+            *ngIf="signupForm.get('confirmPassword')?.hasError('required') && signupForm.get('confirmPassword')?.touched"
+            class="text-danger">
+            Confirm Password is required
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="text-end mt-3">
+        <button type="button" routerLink="/login" class="btn btn-danger">Back</button>
+        <button type="submit" class="btn btn-success ms-2">Create Account</button>
+      </div>
+    </form>
+  </div>
+</div>

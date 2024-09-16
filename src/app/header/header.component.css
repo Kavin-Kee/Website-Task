@@ -1,0 +1,32 @@
+.navbar-brand-img {
+  height: 31px; 
+  width: 192px;
+}
+
+.bg-darkgreen {
+  background-color: #006a47; 
+}
+
+.navbar-nav .nav-link {
+  color: white; 
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1); 
+}
+.user-img {
+  width: 40px;  
+  height: 40px;
+  border-radius: 50%; 
+  margin-left: 16px;  
+  cursor: pointer;
+}
+.navbar-nav .nav-link.active {
+  color: #000;
+  border-radius: 5px; 
+}
+.user-name{
+  color:white;
+  padding-right: 12px;
+  cursor: pointer;
+}

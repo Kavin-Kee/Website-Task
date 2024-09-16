@@ -1,0 +1,32 @@
+<app-header></app-header>
+<h4>Dashboard</h4>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3" *ngFor="let item of cardItems" style="animation-delay: 1s;">
+      <div class="card text-red animated-card">
+        <div class="card-body p-2">
+          <div class="d-flex flex-row justify-content-between mb-4 flex-wrap">
+            <div class="d-flex flex-column text-center" style="width: 40%;font-size: 12px;">
+              <h6 class="mb-1">{{item.active.value}}</h6>
+              <h6 class="mb-0">{{item.active.displayName}}</h6>
+            </div>
+            <div class="d-flex flex-column text-center" style="width: 48%;">
+              <h6 class="mb-1">{{item.inactive.value}}</h6>
+              <h6 class="mb-0">{{item.inactive.displayName}}</h6>
+            </div>
+          </div>
+          <div class="d-flex flex-row justify-content-between flex-wrap">
+            <div class="d-flex flex-column text-center" style="width: 48%;">
+              <img class="img mt-3" src="assets\card1.png" [ngStyle]="{'background-color': item.colorCode}">
+            </div>
+            <div class="d-flex flex-column text-center" style="width: 48%;">
+              <h6 class="mb-1">{{item.value}}</h6>
+              <h6 class="mb-0">{{item.displayName}}</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <app-chart></app-chart>
+  </div>
+</div>

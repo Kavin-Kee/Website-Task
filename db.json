@@ -1,0 +1,649 @@
+{
+  "items": [
+    {
+      "owner_id": 7,
+      "owner_name": "Karthi",
+      "phone": "9499598564",
+      "email": "karthickaari13@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "Madurai",
+      "address": "aavadi,Madurai",
+      "account_number": "635128166161",
+      "ifsc_code": "KNU8546554",
+      "bank": "AXIS",
+      "branch": "Madurai",
+      "id": "bd84"
+    },
+    {
+      "owner_id": 6,
+      "owner_name": "Dravid",
+      "phone": "9198423779",
+      "email": "dravid@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "Covai",
+      "address": "adaiyar,chennai",
+      "account_number": "365436188013",
+      "ifsc_code": "IN8474646664",
+      "bank": "HDFC",
+      "branch": "Kaapikadai",
+      "id": "279a"
+    },
+    {
+      "owner_id": 5,
+      "owner_name": "Mohanraj",
+      "phone": "8878376683",
+      "email": "mohanrajk261@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "Coimbatore",
+      "address": "Coimbatore",
+      "account_number": "259865231478",
+      "ifsc_code": "INDB0000026",
+      "bank": "INDUSIND",
+      "branch": "Coimbatore",
+      "id": "003a"
+    },
+    {
+      "owner_id": 4,
+      "owner_name": "vickydurai",
+      "phone": "9095888888",
+      "email": "cpvicky6464@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "palladam",
+      "address": "periyathottam,vadugapalayam P,palladam, tiruppur,tamilnadu 641664",
+      "account_number": "6384747436755",
+      "ifsc_code": "KJ8745643745",
+      "bank": "HDFC",
+      "branch": "palladam",
+      "id": "d79b"
+    },
+    {
+      "owner_id": 3,
+      "owner_name": "tamil",
+      "phone": "6374320000",
+      "email": "tamildurai@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "745263466436",
+      "ifsc_code": "M4973I7674",
+      "bank": "Canara",
+      "branch": "coimbatore",
+      "id": "925d"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "f8e1"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "0eac"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "aa65"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "e97c"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "8032"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "7beb"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "b89e"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "b8dc"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "1481"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "3c11"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "c0c2"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "089a"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "ec63"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "006a"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "e4c6"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "5890"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "f31e"
+    },
+    {
+      "owner_id": 2,
+      "owner_name": "Mani",
+      "phone": "8520147963",
+      "email": "anand12@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "cbe",
+      "address": "cbe",
+      "account_number": "6437643262564",
+      "ifsc_code": "IC863764864",
+      "bank": "ICC",
+      "branch": "Coimbatore",
+      "id": "331c"
+    },
+    {
+      "owner_id": 1,
+      "owner_name": "test_owner",
+      "phone": "9192939490",
+      "email": "owner@gmail.com",
+      "owner_status": 1,
+      "owner_status_name": "active",
+      "location": "coimbathore",
+      "address": "coimbathore",
+      "account_number": "7374934634435",
+      "ifsc_code": "IF877836864",
+      "bank": "State bank",
+      "branch": "coimbatore",
+      "id": "0372"
+    }
+  ],
+  "data": [
+    {
+      "displayName": "Total Owners",
+      "key": "total_owners",
+      "value": 7,
+      "colorCode": "#328CD1",
+      "active": {
+        "displayName": "Active",
+        "value": 6
+      },
+      "inactive": {
+        "displayName": "Inactive",
+        "value": 1
+      },
+      "id": "1279"
+    },
+    {
+      "displayName": "Total Station",
+      "key": "total_counts",
+      "value": 12,
+      "colorCode": "#D18C32",
+      "active": {
+        "displayName": "Active",
+        "value": 8
+      },
+      "inactive": {
+        "displayName": "Inactive",
+        "value": 2
+      },
+      "maintenance": {
+        "displayName": "Maintenance",
+        "value": 2
+      },
+      "id": "75e7"
+    },
+    {
+      "displayName": "Total Chargers",
+      "key": "nodes_count",
+      "value": 24,
+      "colorCode": "#8C32D1",
+      "active": {
+        "displayName": "Active",
+        "value": 19
+      },
+      "inactive": {
+        "displayName": "Inactive",
+        "value": 2
+      },
+      "maintenance": {
+        "displayName": "Maintenance",
+        "value": 3
+      },
+      "id": "0735"
+    },
+    {
+      "displayName": "Total Employees",
+      "key": "employees_count",
+      "value": 10,
+      "colorCode": "#2AB95A",
+      "active": {
+        "displayName": "Active",
+        "value": 8
+      },
+      "inactive": {
+        "displayName": "Inactive",
+        "value": 2
+      },
+      "id": "20eb"
+    },
+    {
+      "displayName": "Total Customers",
+      "key": "customer_count",
+      "value": 12,
+      "colorCode": "#D1D132",
+      "active": {
+        "displayName": "Active",
+        "value": 12
+      },
+      "inactive": {
+        "displayName": "Inactive",
+        "value": 0
+      },
+      "id": "3350"
+    },
+    {
+      "displayName": "Total Complaints",
+      "key": "customer_report",
+      "value": 11,
+      "colorCode": "#D13250",
+      "active": {
+        "displayName": "Pending",
+        "value": 9
+      },
+      "inactive": {
+        "displayName": "Solved",
+        "value": 2
+      },
+      "id": "a300"
+    }
+  ],
+  "graph": [
+    {
+      "label": "active stations",
+      "value": 8,
+      "id": "67a4"
+    },
+    {
+      "label": "inactive stations",
+      "value": 2,
+      "id": "5974"
+    },
+    {
+      "label": "maintenance stations",
+      "value": 2,
+      "id": "98d2"
+    }
+  ],
+  "user": [
+    {
+      "id": "ac81",
+      "name": "Kavin",
+      "email": "romankavin88@gmail.com",
+      "age": 22,
+      "phoneNumber": "9566394271",
+      "city": "Erode",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "createPassword": "1234",
+      "confirmPassword": "1234",
+      "addresses": [
+        {
+          "street": "Gajaka",
+          "pincode": "638505"
+        }
+      ]
+    },
+    {
+      "id": "9843",
+      "name": "Kavin",
+      "email": "romankavin88@gmail.com",
+      "age": 50,
+      "phoneNumber": "9566394271",
+      "city": "Erode",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "createPassword": "1234",
+      "confirmPassword": "1234",
+      "addresses": [
+        {
+          "street": "Gajaka",
+          "pincode": "638505"
+        }
+      ]
+    },
+    {
+      "id": "daea",
+      "name": "Arun",
+      "email": "arun@123",
+      "age": 23,
+      "phoneNumber": "9566394271",
+      "city": "chennai",
+      "state": "tamil",
+      "country": "india",
+      "createPassword": "1234",
+      "confirmPassword": "1234",
+      "addresses": [
+        {
+          "street": "tamilnadu",
+          "pincode": "123456"
+        }
+      ]
+    },
+    {
+      "id": "3978",
+      "name": "Naveen",
+      "email": "naveen123@gmail.com",
+      "age": 88,
+      "phoneNumber": "9090876548",
+      "city": "Erode",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "createPassword": "9090",
+      "confirmPassword": "9090",
+      "addresses": [
+        {
+          "street": "Gajaka",
+          "pincode": "638505"
+        }
+      ]
+    }
+  ],
+  "linechart": [
+    {
+      "month": "January",
+      "Total": 0,
+      "id": "cf64"
+    },
+    {
+      "month": "February",
+      "Total": 0,
+      "id": "8e55"
+    },
+    {
+      "month": "March",
+      "Total": 0,
+      "id": "2de2"
+    },
+    {
+      "month": "April",
+      "Total": 0,
+      "id": "f0b5"
+    },
+    {
+      "month": "May",
+      "Total": 0,
+      "id": "c407"
+    },
+    {
+      "month": "June",
+      "Total": 9,
+      "id": "db94"
+    },
+    {
+      "month": "July",
+      "Total": 2,
+      "id": "68bd"
+    },
+    {
+      "month": "August",
+      "Total": 1,
+      "id": "fa09"
+    },
+    {
+      "month": "September",
+      "Total": 0,
+      "id": "9b6c"
+    }
+  ],
+  "barchart": [
+    {
+      "month": "January",
+      "Total": 0,
+      "id": "930f"
+    },
+    {
+      "month": "February",
+      "Total": 0,
+      "id": "0144"
+    },
+    {
+      "month": "March",
+      "Total": 0,
+      "id": "51da"
+    },
+    {
+      "month": "April",
+      "Total": 0,
+      "id": "e698"
+    },
+    {
+      "month": "May",
+      "Total": 0,
+      "id": "7ddb"
+    },
+    {
+      "month": "June",
+      "Total": 7,
+      "id": "51cc"
+    },
+    {
+      "month": "July",
+      "Total": 5,
+      "id": "3d31"
+    },
+    {
+      "month": "August",
+      "Total": 0,
+      "id": "6979"
+    },
+    {
+      "month": "September",
+      "Total": 0,
+      "id": "01f8"
+    }
+  ]
+}

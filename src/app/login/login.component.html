@@ -1,0 +1,35 @@
+<div class="login-container">
+  <div class="login-box">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Maestro Logo">
+    </div>
+    <h2>Welcome Back!</h2>
+    <form (ngSubmit)="onSubmit(loginForm)" #loginForm="ngForm" novalidate>
+      <div class="form-group">
+        <label for="username" class="floating-label">User Name</label>
+        <input type="text" id="username" [(ngModel)]="uname" name="uname" #unameField="ngModel"
+          placeholder="Enter username" required>
+        <i class="fa fa-user"></i>
+        <div *ngIf="(unameField.invalid && unameField.touched) || (loginForm.submitted && unameField.invalid)"
+          class="error-message">
+          Username is required
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="password" class="floating-label">Password</label>
+        <input [type]="passwordFieldType" id="password" [(ngModel)]="password" name="password" #passwordField="ngModel"
+          placeholder="Enter password" required>
+        <i class="fa" [ngClass]="{'fa-lock': !isShowPassword, 'fa-unlock': isShowPassword}"
+          (click)="togglePasswordVisibility()"></i>
+        <div *ngIf="(passwordField.invalid && passwordField.touched) || (loginForm.submitted && passwordField.invalid)"
+          class="error-message">
+          Password is required
+        </div>
+      </div>
+      <div>
+        <a routerLink="/signup" class="forgot-password">SignUp</a>
+      </div>
+      <button type="submit" class="btn-login">Login</button>
+    </form>
+  </div>
+</div>

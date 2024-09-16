@@ -1,0 +1,15 @@
+.chart-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .chart {
+    width: 45%;
+  }
+  .card-body{
+    background-color:white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  
